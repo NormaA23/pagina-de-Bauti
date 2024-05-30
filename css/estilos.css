@@ -1,0 +1,66 @@
+/* normalizar la página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* globales */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url('../img/Textura_bloque_de_tierra_Minecraft.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: center center;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-image: url('../img/cesped.jpg');
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header nav a {
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 1rem;
+    transition: .3s;
+
+}
+
+header nav a:hover {
+    color: beige;
+}
+
+/* main */
+main {
+    max-width: 120rem;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+}
