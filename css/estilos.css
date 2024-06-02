@@ -11,6 +11,7 @@ html {
 }
 
 body {
+    font-size: 1.6rem;
     background-image: url('../img/Textura_bloque_de_tierra_Minecraft.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,6 +19,7 @@ body {
     background-attachment: fixed;
     font-family: 'Times New Roman', Times, serif;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -37,17 +39,17 @@ header {
 
 h1 {
     text-transform: capitalize;
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-family:'Times New Roman', Times, serif;
 }
 
 header nav a {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: capitalize;
     font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
     margin-left: 1rem;
     transition: .3s;
-
 }
 
 header nav a:hover {
@@ -61,6 +63,21 @@ main {
     margin: 0 auto;
 }
 
-.container-flex {
+.container {
     display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    gap: .2rem;
 }
+
+.container p{
+    text-align: center;
+    background-color: beige;
+    font-size: 1.8rem;
+    padding: 1rem;
+    margin: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
